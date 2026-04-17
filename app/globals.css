@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #234c75; /* Um branco levemente azulado para não cansar o olho */
+  --foreground: #010937; /* Usando seu primary-400 para textos principais */
+  /* ... suas outras cores */
+  /* 🎨 SUA PALETA */
+  --primary-100: #1C31A5;
+  --primary-200: #101F78;
+  --primary-300: #020F59;
+  --primary-400: #010937;
+  --primary-500: #000524;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* 🎨 MAPEANDO PARA TAILWIND */
+  --color-primary-100: var(--primary-100);
+  --color-primary-200: var(--primary-200);
+  --color-primary-300: var(--primary-300);
+  --color-primary-400: var(--primary-400);
+  --color-primary-500: var(--primary-500);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
