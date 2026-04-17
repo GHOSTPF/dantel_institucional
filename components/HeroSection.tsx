@@ -74,25 +74,24 @@ const HeroSection: React.FC = () => {
           </div>
 
           <div className="relative flex justify-center">
-  <div className="relative z-20 w-[420px] h-[500px] border-[10px] border-[#1a1a1a] shadow-2xl overflow-hidden grayscale-[0.2] hover:grayscale-0 transition duration-700">
+            <div className="relative z-20 w-[420px] h-[500px] border-[10px] border-[#1a1a1a] shadow-2xl overflow-hidden grayscale-[0.2] hover:grayscale-0 transition duration-700">
 
-    <img 
-      src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
-      alt="Executivo Focado" 
-      className="w-full h-full object-cover object-top"
-    />
+              <img 
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
+                alt="Executivo Focado" 
+                className="w-full h-full object-cover object-top"
+              />
 
-    <div className="absolute bottom-0 left-0 bg-black/60 backdrop-blur-md p-6 text-sm w-full">
-      <p className="font-serif italic text-lg text-white">Liderança em Decisões</p>
-      <p className="text-[10px] uppercase tracking-widest opacity-70">
-        Sua empresa focada no crescimento estratégico.
-      </p>
-    </div>
-  </div>
+              <div className="absolute bottom-0 left-0 bg-black/60 backdrop-blur-md p-6 text-sm w-full">
+                <p className="font-serif italic text-lg text-white">Liderança em Decisões</p>
+                <p className="text-[10px] uppercase tracking-widest opacity-70">
+                  Sua empresa focada no crescimento estratégico.
+                </p>
+              </div>
+            </div>
 
-  {/* BORDA DECORATIVA */}
-  <div className="absolute -top-4 -right-4 w-[420px] h-[500px] border border-white/10 z-10"></div>
-</div>
+            <div className="absolute -top-4 -right-4 w-[420px] h-[500px] border border-white/10 z-10"></div>
+          </div>
         </main>
 
         <div className="px-12 mt-24 pb-12 flex space-x-16 opacity-50 text-[10px] tracking-[0.2em] uppercase">
